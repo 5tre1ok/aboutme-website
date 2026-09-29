@@ -149,6 +149,13 @@ a:active {
     text-decoration: underline;
 }
 
+.ytembeds{
+    border-style: dotted;
+    display:block;
+    width: 40%;
+    height: auto;
+}
+
 .cherrycrushpics{
     width: 90%;
     display: flex;
