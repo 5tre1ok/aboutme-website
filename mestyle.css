@@ -22,6 +22,30 @@ body {
 
 }
 
+.commands{
+      
+    margin: 1% auto;
+    max-width: 900px;
+    width: 90%;
+
+    border-radius: 1%;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.296);
+    background-color: rgba(200, 200, 200, 0.101);
+
+    color: white;
+
+}
+
+.toptitle{
+
+
+    margin-bottom: 3%;
+    color: white;
+
+
+}
+
 .Title{
 
     color: white;
@@ -59,7 +83,12 @@ body {
     border-style: dotted;
     border-color: rgba(255, 255, 255, 0.296);
     background-color: rgba(200, 200, 200, 0.101);
+    
 
+}
+
+.secretlink {
+  float: left;
 }
 
 .cat-top {
@@ -77,6 +106,24 @@ body {
         left: 100%; /* End position */
     }
 }
+
+.nrscreenshots{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1% 2%;
+}
+
+.nrscreenshots img{
+    width: 40%;
+    height: auto;
+    display: block;
+    border-style: dotted;
+}
+
 
 .page-nav{
 
@@ -214,19 +261,6 @@ display: inline-block;
   height: 20%;
   object-fit: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .photo {
